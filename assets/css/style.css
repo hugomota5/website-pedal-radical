@@ -1,0 +1,49 @@
+
+:root {
+  --color-primary: #ff7828;
+  --backgroud-clor-primary: #170900;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+#wrapper-nav {
+  background-color: var(--backgroud-clor-primary) !important;
+  width: 100%;
+}
+
+nav{
+    color: var(--color-primary);
+    /* padding: 20px 50px; */
+}
+
+.navbar-top>.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .busca-top{
+        display: flex;
+        
+    }
+
+    .icones-nav-top{
+        display: flex;
+
+        .usuario-acessos{
+            display: flex;
+        }
+    }
+    
+}
+
+.svg-color {
+    fill: var(--color-primary);
+    &:hover{
+        fill: #fff;
+    }
+}
+.busca-top {
+  .busca-top-icones {
+    color: var(--color-primary);
+  }
+}
